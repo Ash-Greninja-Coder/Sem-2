@@ -144,3 +144,10 @@ bocir55363@indevgo.com
 AshGreninja@123
 
 
+
+PS C:\Users\Admin\Desktop\Devops_D> Remove-Item -Recurse -Force .git
+PS C:\Users\Admin\Desktop\Devops_D> git init
+Initialized empty Git repository in C:/Users/Admin/Desktop/Devops_D/.git/
+PS C:\Users\Admin\Desktop\Devops_D> git remote add origin https://github.com/Ash-Greninja-Coder/Sem-2.git
+PS C:\Users\Admin\Desktop\Devops_D> git add .
+PS C:\Users\Admin\Desktop\Devops_D> git commit -m "Hello"
